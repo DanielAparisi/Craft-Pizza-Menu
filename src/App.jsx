@@ -1,11 +1,10 @@
-import Menu from "../src/components/Menu";
 import './App.css'
-
+import Slider from "./components/Slider";
 
 
 function App() {
   return (
-     <Menu></Menu>
+     <Slider></Slider>
   );
 }
 

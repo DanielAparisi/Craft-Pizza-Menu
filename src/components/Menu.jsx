@@ -38,18 +38,16 @@ export default  function Menu () {
 
   return(
     <main className="WrapperMenu">
-    <h1 className='MenuTitle'>Menu Personal</h1>
-    {
-      INFO_MENU.map(({title, description, id})  => (
-          <section key={id} className="ListOfMenu" >
-              <span>{title}</span>
-              <p>{description}</p>
-          </section>
-          
-      ))
-    }
-  </main>
+      <h1 className='MenuTitle'>Menu Personal</h1>
+      {
+        INFO_MENU.map(({title, description, id})  => (
+            <section key={id} className="ListOfMenu">
+                <span>{title}</span>
+                <p>{description}</p>
+            </section>
+        ))
+      }
+    </main>
   )
-  
 }
  

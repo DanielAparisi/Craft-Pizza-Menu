@@ -1,3 +1,43 @@
 .swiper_container{
   padding: 5px;
 }
+
+.wrapper{
+  width: 880px;
+  height: 502px;
+  background-color: black;
+  margin-top: 100px;
+}
+
+.wrapper section {
+  height: 100px;
+  padding: 20px;
+}
+
+.wrapper section h3 {
+  font-size: 34px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+.wrapper img {
+  width: 161px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.swiper_container img{
+  width: 254px;
+  height: 305px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.MenuWrapper{
+  display: flex;
+  align-items: center;
+  gap: 126px;
+}
+.LogoImg{
+  width: 20px;
+  height: 20px;
+}
