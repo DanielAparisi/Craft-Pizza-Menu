@@ -6,6 +6,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './Slider.css'
+import './App.css'
 
 
 import slide_image_1 from '../icons/pizza-1.jpg';
@@ -21,7 +22,11 @@ import slide_image_7 from '../icons/pizza-7.jpg';
 export default function Slider () {
 
   return (
-    <div className="container">
+
+    <main className="wrapper">
+    <section>
+      <h3>Craft Pizza Menu</h3>
+      <div className="container">
     <Swiper
       effect={'coverflow'}
       grabCursor={true}
@@ -77,5 +82,8 @@ export default function Slider () {
       </div>
     </Swiper>
   </div>
+    </section>  
+  </main>
+   
   );
 }

@@ -1,17 +1,11 @@
-import Slider from './components/Slider'
+import Menu from "../src/components/Menu";
 import './App.css'
+
+
 
 function App() {
   return (
-    <>
-      <main className="wrapper">
-        <section>
-          <h3>Craft Pizza Menu</h3>
-        </section>
-        <Slider></Slider>
-      </main>
-    </>
-    
+     <Menu></Menu>
   );
 }
 

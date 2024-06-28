@@ -1,0 +1,35 @@
+
+.WrapperMenu {
+    display: flex;
+    flex-direction: column;
+    width: 587px;
+    height: 825px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: black;
+}
+.MenuTitle{
+    font-size: 40px;
+}
+.ListOfMenu{
+    color: white;
+    background-color: #242424;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9px;
+    height: 200px;
+    margin: 10px;
+    /* padding-bottom: 10px; */
+    width: 500px;
+}
+.ListOfMenu span{
+    font-weight: bold;
+}
+.ListOfMenu:hover{
+    color: white;
+    background-color: purple;
+    transition: all 1s;
+    opacity: .8;
+}
