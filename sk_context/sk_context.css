@@ -1,39 +1,24 @@
-button {
-    --purple: #331a69;
-    font-size: 18px;
-    padding: 0.8em 3em;
-    letter-spacing: 0.08em;
-    position: relative;
-    font-family: inherit;
-    border-radius: 0.6em;
-    overflow: hidden;
-    transition: all 0.3s;
-    line-height: 1.4em;
-    border: 2px solid var(--purple);
-    background: linear-gradient(to right, rgba(155, 126, 218, 0.1) 1%, transparent 40%, rgba(18, 3, 51, 0.1) 60%, rgba(18, 3, 51, 0.1) 100%);
-    color: var(--purple);
-    box-shadow: inset 0 0 10px rgba(155, 126, 218, 0.4), 0 0 9px 3px rgba(155, 126, 218, 0.1);
-  }
-  
-  button:hover {
-    color: #5a4286;
-    box-shadow: inset 0 0 10px rgba(155, 126, 218, 0.6), 0 0 9px 3px rgba(155, 126, 218, 0.2);
-  }
-  
-  button:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 7em;
-    height: 100%;
-    top: 0;
-    transition: transform .4s ease-in-out;
-    background: linear-gradient(to right, transparent 1%, rgba(155, 126, 218, 0.1) 40%, rgba(155, 126, 218, 0.1) 60%, transparent 100%);
-  }
-  
-  button:hover:before {
-    transform: translateX(15em);
-  }
-  span{
-    font-size: 20px;
-  }
+div {
+  display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 15px;
+    padding: 5px;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: black;
+    width: 224px;
+    height: 40px;
+}
+section{  
+    width: 17px;
+    height: 21px;
+    font-weight: 400;
+    background-color: purple;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
