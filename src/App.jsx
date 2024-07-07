@@ -1,10 +1,11 @@
 import './App.css'
-import Slider from "./components/Slider";
+import '../sk_context/sk_context.html'
+
 
 
 function App() {
   return (
-     <Slider></Slider>
+     <h1>a</h1>
   );
 }
 
